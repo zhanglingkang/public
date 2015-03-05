@@ -8,7 +8,7 @@ define(function (require, exports, module) {
      *  url 必填
      *  uploadName 可选，上传时的参数名，如果没有提供，则取name属性的值
      *  onFileUploadStart 可选，传递参数为选择的文件，如果返回值为false，取消上传行为
-     *  onFileUploadComplete 可选
+     *  onFileUploadComplete 可选 返回值赋给uploadedModel绑定的模型上
      *  onError 可选
      */
     app.directive("uploadedModel", ["$http", function ($http) {
