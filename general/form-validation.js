@@ -1,6 +1,3 @@
-/**
- * 发布订阅模式
- */
 "use strict";
 
 define(function (require, exports, module) {
